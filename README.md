@@ -22,5 +22,19 @@ type étyquette ;  # sans affectation
 type étyquette = value # avec affectation 
 ```
 
+## Type de variable 
+
+C'est des indicateurs qui permet permet à la machine de savoir la famille de la variable et la taille de la données qu'elle peut contenir. Par defaut les variables sont signées. 
+
+Pour déterminer le taille de la variable il faut utiliser la fonction ```sizeof(arg)```. Cette fonction qui retourne le taille de la variable en ```octect```. 
+
+>exemple :
+```
+sizeof(int)
+```
+>resulat : 
+```
+4 octects
+```
 ## Pratiques 
 
