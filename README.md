@@ -36,5 +36,19 @@ sizeof(int)
 ```
 4 octects
 ```
-## Pratiques 
+## Overflow 
+Cette notion intervient lorsque la taille de la variable est dépassée; 
+
+> Pas d'overflow : 
+
+```
+ 10 peut être stocké dans un int ou un unsigned int → OK
+```
+> Overflow : 
+```
+ 300 ne peut pas être stocké dans un uint8_t car 300 > 255 → Erreur
+```
+```
+ -130 ne peut pas être stocké dans un int8_t car -130 < -128 → Erreur
+```
 
