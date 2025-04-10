@@ -23,7 +23,7 @@ type étyquette ;  # sans affectation
 type étyquette = value # avec affectation 
 ```
 
-## Type de variable 
+## Types de variables 
 
 C'est des indicateurs qui permet permet à la machine de savoir la famille de la variable et la taille de la données qu'elle peut contenir. Par defaut les variables sont signées. 
  
@@ -39,7 +39,7 @@ sizeof(int)
 4 octects
 ```
 
-> Type de variable : 
+> Types de variables : 
 ```
  * char ------------> 1 octect
  * int ------------> (2/4) octects en fonction du processeur 
